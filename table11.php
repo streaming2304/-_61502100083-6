@@ -39,6 +39,7 @@ $result = $conn ->query($sql);
   <td><?php echo $row['movie_time'];?></td>
   <td><?php echo $row['movie_user'];?></td>
   <td><?php echo $row['pin'];?></td>
+  <td><a href="form_edit.php?id=<?php echo $row['movie_id'];?>">แก้ไข</a></td>
   <td><a href="?delete=1&id=<?php echo $row['movie_id'];?>">ลบ</a></td>
   
 
