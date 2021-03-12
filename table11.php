@@ -3,6 +3,7 @@
 <input type="text" name="search" id="search" placehotlder="ค้นหา">
 <button type="submit" name="click">ค้นหา</button>
 </form>
+<button onclick="window.location='form_add.php';">เพิ่มข้อมูล</button>
 <table style="width:100%" border="1">
   <tr>
     <th>รหัสภาพยนตร์</th>
